@@ -1,0 +1,16 @@
+@import url(//db.onlinewebfonts.com/c/7e96eba370659b4e4563309dc4ebb33f?family=Samarkan);
+:root
+{
+    --background-color: #0E0C0B;
+    --heading-color:#32BB82;
+    --textColor : #319C6D;
+    --borderColor : rgba(45,255,196,1);
+    --hoverColor : #91F2CA;
+    
+    --titleFont : 'Samarkan', sans-serif;
+    --mainFont : 'hack';
+    
+    --fontSizeSmall : 1rem;
+    --fontSizeMedium : 3rem ;
+    --fontSizeLarge : 5rem; 
+}

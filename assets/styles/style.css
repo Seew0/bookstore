@@ -1,0 +1,100 @@
+@import url("theme.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: var(--bodyFont);
+}
+body
+{
+    background-color: var(--background-color);
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    /* background-color: rebeccapurple; */
+}
+
+#title
+{
+    padding: 1rem;
+    text-align: center;
+    color: var(--heading-color);
+    font-family: var(--titleFont);
+    font-size :500%;
+}
+
+
+#inputDiv div 
+{
+    display: flex;
+    width: 35rem;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0px 0px 1px rgba(45,255,196,1);
+    color: var(--textColor);
+    margin: 1rem;
+    width: 100%;
+}
+
+label,input,select
+{
+    color-scheme: dark;
+    padding: 0.25rem;
+    color: var(--textColor);
+    font-size : 150%;
+    border-width:0rem;
+    background-color: var(--background-color);
+}
+
+label
+{
+    flex-grow: 1;
+}
+label:hover
+{
+    color: var(--hoverColor);
+}
+
+#saveBtn
+{
+    box-shadow: 0px 0px 0px 1px rgba(45,255,196,1);
+    background-color: var(--background-color);
+    border: 0rem;
+    margin: 1rem;
+    width: 100%;
+    color: var(--textColor);
+    font-size: 150%;
+    cursor:grab;
+}
+
+#saveBtn:hover
+{
+    color: var(--hoverColor);
+    /* filter: brightness(1.2); */
+}
+
+#tableDiv  th ,td 
+{
+    box-shadow: 0px 0px 0px 1px rgba(45,255,196,1);
+    padding: 1rem;
+}
+tr ,th
+{
+    color:  var(--textColor);
+}
+
+th:hover
+{
+    color: var(--hoverColor);
+}
+
+tr:hover
+{
+    color: var(--hoverColor);
+}
