@@ -7,8 +7,8 @@
     --borderColor : rgba(45,255,196,1);
     --hoverColor : #91F2CA;
     
-    --titleFont : 'Samarkan', sans-serif;
-    --mainFont : 'hack';
+    --titleFont : 'hack',monospace;
+    --mainFont :  'hack',monospace;
     
     --fontSizeSmall : 1rem;
     --fontSizeMedium : 3rem ;

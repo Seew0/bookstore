@@ -14,7 +14,6 @@ function getInputType(object)
             input.type = type;
             input.name= key;
             input.id = id;
-            
             break;
         case BOOLEAN:
 
@@ -108,15 +107,15 @@ function addDataInTable()
         }
         else
         {
-            if(confirm("do you wanna add the data to the table"))
+            if(confirm("do you wanna add the data to the table? (Y/n)"))
             {
                 const entry = document.querySelector("#tableDiv table tbody");
                 const tr = document.createElement("tr");
                 
                 for (let idx of data)
                 {
-                    const td = document.createElement("td");
-                    td.innerText =idx;
+                    const td = document.createElement("td"); 
+                    td.innerText =idx;  
                     tr.appendChild(td);
                 }
                 entry.append(tr);

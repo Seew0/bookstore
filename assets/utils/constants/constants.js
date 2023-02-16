@@ -29,7 +29,7 @@ const inputObjArr=
     
     {
         key : "Pages",
-        type : STRING,
+        type : NUMBER,
         id : "pageId"
     },
 
